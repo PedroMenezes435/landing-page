@@ -1,0 +1,239 @@
+body {
+    font-family: Arial, sans-serif;
+    width: 40%;
+}
+
+body {
+    background-image: url(./assets/background-blue.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 300px;
+
+}
+
+h1 {
+    width: 200%;
+    text-align: left;
+    font-size: 50px;
+    color: white;
+    padding-top: 10%;
+    margin-left: 150%;
+    transform: translateY(40%);
+}
+
+h2 {
+  color: white;
+  width: 300%;
+  margin-left: 100%;
+  padding-top: 10%;
+}
+
+
+
+#text p {
+    position: relative;
+    font-size: xx-large;
+    margin-left: 120%;
+    margin-top: 2%;
+    width: 280%;
+    transform: translateY(100%);
+    padding-top: 40%;
+}
+
+#container form {
+    width: 400px;
+    margin-left: -40%;
+    background-color: transparent;
+    padding: 50px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    align-items: center;
+    transform: translateY(-40%);
+    color:blanchedalmond;
+    padding-bottom: 250%;
+    height: -0px;
+    justify-content: center;
+
+}
+
+
+#profile img {
+  display: flex;
+  width: 400px;
+  height: 400px;
+  padding-left: 200%;
+  padding-bottom: 160%;
+  transform: translateY(-25%);
+
+}
+
+
+label {
+    font-weight: 900px;
+}
+
+input {
+    width: 95%;
+    padding: 20px;
+    margin: 5px 0;
+    border: 1px solid black;
+    border-radius: 3px;
+}
+
+
+input[type="submit"] {
+    background-color: #007BFF;
+    color: white;
+    font-weight: bold;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+#button-container {
+    display: flex;
+    justify-content: right;
+  }
+
+input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+
+#profile {
+    position: relative;
+    height: 0px;
+    padding-left: 0%;
+}
+
+#container {
+    padding-left: 40%;
+    margin-left: 0%;
+}
+
+#container {
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+
+#text {
+    width: 80%;
+    color: white;
+    font-size: 20px;
+    text-align: left;
+    margin-left: 90%;
+    transform: translateY(42%);
+}
+
+ul {
+  color: white;
+  font-size: 20px; 
+  list-style: none; 
+}
+
+
+.circulos {
+    display: flex;
+    width: 600px; /* Largura total dos três círculos e espaçamento */
+    margin: 0 10px; /* Centraliza os círculos horizontalmente */
+    justify-content: center;
+    margin-left: 120%;
+    margin-bottom: 200%;
+  }
+
+  .circulo {
+    min-width: 150px;
+    min-height: 150px;
+    background-color: #007BFF;
+    border-radius: 50%;
+    margin-left: 15%;
+
+  }
+
+  .texto {
+    text-align: center;
+    transform: translateX(-140%);
+    padding-top: 4%;
+    color: white;
+  }
+
+  .texto2 {
+    text-align: center;
+    transform: translateX(-138%);
+    padding-top: 5%;
+    color: white;
+  }
+
+  #content-footer {
+    align-items: center;
+    width: 100%;
+    height: 13%;
+  }
+
+  
+  .texto3 {
+    text-align: center;
+    transform: translateX(-135%);
+    padding-top: 1%;
+    color: white;
+    font-size: 15px;
+  }
+
+  h3 {
+    color: white;
+    width: 300%;
+    margin-left: 50%;
+    margin-top: -70%;
+    transform: translateX(50%);
+}
+
+h4 {
+  color: white;
+  width: 260%;
+  margin-left: 82%;
+  margin-top: -70%;
+  font-size: xx-large;
+  padding-bottom: 50%; 
+  transform: translateY(-65%);
+}
+
+footer {
+  width: 200px;
+  color: #fff; /* Cor do texto no footer */
+  padding: 20px; /* Espaçamento interno para o conteúdo do footer */
+  text-align: center; /* Alinhar o texto ao centro */
+  margin-left: 513px;
+  margin-top: -150px;
+  transform: translateY(-150px);
+}
+
+/* Estilizar links no footer */
+footer a {
+  color: #fff; /* Cor dos links no footer */
+  text-decoration: none; /* Remover sublinhado dos links */
+}
+
+/* Estilizar links quando hover no footer */
+footer a:hover {
+  text-decoration: underline; /* Adicionar sublinhado ao passar o mouse sobre os links */
+}
+
+
+
+
+    /* Estilos para telas pequenas (ex. smartphones) */
+@media (max-width: 500px) {
+    /* Aplique estilos apropriados para telas pequenas aqui */
+  }
+  
+  /* Estilos para telas médias (ex. tablets) */
+  @media (min-width: 768px) and (max-width: 1023px) {
+    /* Aplique estilos apropriados para telas médias aqui */
+  }
+  
+  /* Estilos para telas grandes (ex. desktops) */
+  @media (min-width: 1024px) {
+    /* Aplique estilos apropriados para telas grandes aqui */
+  }
